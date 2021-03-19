@@ -1,5 +1,0 @@
-AddDefaultCharset UTF-8
-
-RewriteEngine on
-
-RewriteRule ^/qr/00195893052004$ /woma/lubrican [L]
