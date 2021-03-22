@@ -165,8 +165,9 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #467370;
-  text-decoration: underline;
+  color: #0482f9;
+  text-decoration: none;
+  border-bottom: 1px dotted #0482f9;
 }
 
 a:not([href]):not([class]) {
@@ -10162,6 +10163,9 @@ body {
 #mainNav {
   min-height: 3.5rem;
   background-color: #fff;
+}
+#mainNav a, #subNav a {
+    border-bottom:none;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
