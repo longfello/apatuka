@@ -10164,7 +10164,7 @@ body {
   min-height: 3.5rem;
   background-color: #fff;
 }
-#mainNav a, #subNav a {
+#mainNav a, #subNav a, .no-subline:hover {
     border-bottom:none;
 }
 #mainNav .navbar-toggler {
